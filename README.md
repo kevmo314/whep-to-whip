@@ -1,6 +1,9 @@
 # whep-to-whip
 
 Want to send a WebRTC WHEP publisher to a WebRTC WHIP subscriber? This is the tool for you!
+It's sort of like a proxy, but doesn't actually need to proxy data.
+
+This library is so simple that it's more of a concept demonstration than to be included in applications.
 
 ## Motivation
 
@@ -17,7 +20,7 @@ Run this tool and you can stream the source direct to Millicast without needing 
 ## Usage
 
 ```bash
-go run main.go -source <source> -sink <sink>
+go run main.go <source> <sink>
 ```
 
 ## Example
