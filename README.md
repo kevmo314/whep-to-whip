@@ -40,6 +40,8 @@ PORT=8081 go run example/subscriber/main.go
 go run main.go http://localhost:8080 http://localhost:8081
 ```
 
+Note that when you run the third command, it **exits completely** but the data will still flow from the publisher to the subscriber. Wow!
+
 ## Limitations
 
 Unfortunately, because both the publisher and subscriber are expect the other side to renegotiate when necessary, if there is a connection break neither side will know how to perform an ICE restart and the session will be lost.
