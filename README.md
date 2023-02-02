@@ -3,7 +3,7 @@
 Want to send a WebRTC WHEP publisher to a WebRTC WHIP subscriber? This is the tool for you!
 It's sort of like a proxy, but doesn't actually need to proxy data.
 
-This library is so simple that it's more of a concept demonstration than to be included in applications.
+This binary is so simple that it's more of a concept demonstration than to be included in applications.
 
 ## Motivation
 
